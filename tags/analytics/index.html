@@ -4,7 +4,7 @@
 The Architecture The system is composed of three distinct stages:
 Capture (LoggingService): Every time a user clicks a book or downloads a PDF, the event is serialized into logs.json. This is a low-latency append-only operation to ensure the UI never freezes.
 Analyze (LogAnalyzerMain): I separated the analytics into an Offline Batch Process. This module reads the raw logs, aggregates click counts, and normalizes them into a score between 0.0 and 1.0.
-...</p></div><footer class=entry-footer><span title='2024-01-15 00:00:00 +0000 UTC'>January 15, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Muhammad Qasim</span></footer><a class=entry-link aria-label="post link to System Design: Engineering Feedback Loops" href=https://kas-sim.github.io/posts/engineering-feedback-loops/></a></article></main><footer class=footer><span>&copy; 2025 <a href=https://kas-sim.github.io/>Muhammad Qasim</a></span> ·
+...</p></div><footer class=entry-footer><span title='2024-01-15 00:00:00 +0000 UTC'>January 15, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Muhammad Qasim</span></footer><a class=entry-link aria-label="post link to System Design: Engineering Feedback Loops" href=https://kas-sim.github.io/posts/engineering-feedback-loops/></a></article></main><footer class=footer><span>&copy; 2026 <a href=https://kas-sim.github.io/>Muhammad Qasim</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
 <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
